@@ -3,7 +3,7 @@ var inquirer = require('inquirer');
 inquirer.prompt([{
         type: 'input',
         message: 'What is your github username?',
-        username: 'username'
+        name: 'username'
     },
     {
         type: 'input',
@@ -13,31 +13,38 @@ inquirer.prompt([{
     {
         type: 'input',
         message: 'Please write a short discription of your project:',
-        discription: 'discription'
+        name: 'discription'
     },
     {
         type: 'input',
         message: 'What kinda of license should your project have?',
-        license: 'license'
+        name: 'license',
+        choices: [
+            "MIT",
+            "APACHE 2.0",
+            "GPL 3.0",
+            "BSD 3",
+            'None'
+        ]
     },
     {
         type: 'input',
         message: 'What command should be run to install dependencies?',
-        dependencies: 'dependencies'
+        name: 'dependencies'
     },
     {
         type: 'input',
         message: 'What command should be run to run test?',
-        test: 'test'
+        name: 'test'
     },
     {
         type: 'input',
         message: 'What does the user need to know about using the repo?',
-        know: 'know'
+        name: 'know'
     },
     {
         type: 'input',
         message: 'What does the user need to know about contributing to the repo?',
-        repo: 'repo'
-    },
+        name: 'repo'
+    }
 ]);

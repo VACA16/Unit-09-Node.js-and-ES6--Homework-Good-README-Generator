@@ -48,6 +48,6 @@
 //         name: 'repo'
 //     }
 // ]);
-var api = require("/utils/api.js");
+var api = require("./api");
 
-console.log(api, api);
+console.log(api);

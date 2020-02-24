@@ -1,6 +1,6 @@
 const fs = require("fs");
 const axios = require("axios");
-const inquirer = require("inquirer");​
+const inquirer = require("/package.json/inquirer");​
 
 const api = {
     getUser(username) {

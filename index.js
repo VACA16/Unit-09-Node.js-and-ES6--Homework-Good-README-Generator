@@ -67,7 +67,7 @@ promptUser()
     })
 
 .then(function() {
-        console.log("Successfully wrote to README.MD");
+        console.log("Successfully wrote to READMEDemo.MD");
     })
     .catch(function(err) {
         console.log(err);

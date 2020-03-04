@@ -1,5 +1,5 @@
 
-  # README.MD Genorator
+  # README.MD Generator
 
   ![License](https://img.shields.io/badge/License-None-blue)
 
